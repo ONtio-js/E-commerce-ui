@@ -7,9 +7,9 @@ import { PiCaretDownBold } from 'react-icons/pi';
 import { TfiHelpAlt } from 'react-icons/tfi';
 import {BsCart3} from 'react-icons/bs';
 import img from './assets/index';
-import AdandMenuPage from './components/Homepage/AdandMenuPage';
-import FeaturedCategory from './components/Homepage/FeaturedCategory';
-import Footer from './components/Homepage/Footer';
+import AdandMenuPage from './pages/Homepage/AdandMenuPage';
+import FeaturedCategory from './pages/Homepage/FeaturedCategory';
+import Footer from './pages/Homepage/Footer';
 export default function App() {
   return (
     <div className="bg-gray-50 w-screen">
@@ -50,18 +50,18 @@ export default function App() {
           </div>
         </div>
        <div className='flex items-center  justify-between gap-4'>
-       <div className='flex items-center gap-2 text-lg cursor-pointer hover:text-orange-400'>
+       <div className='flex items-center gap-2 text-lg cursor-pointer hover:text-orange-400 transition-all duration-300'>
           <TfiHelpAlt />
           <h1 className=''>Help</h1>
           <span className=''><PiCaretDownBold /></span>
         </div>
-        <div className='flex items-center gap-2 text-lg hover:text-orange-400 '>
+        <div className='flex items-center gap-2 text-lg cursor-pointer hover:text-orange-400 duration-300 transition-all '>
          <span className='text-xl'> < BsCart3/></span>
           cart
         </div>
        </div>
       </div>
-      <div className='bg-orange-400  px-40'>
+      <div className='bg-orange-400  lg:px-40'>
         <AdandMenuPage />
         < FeaturedCategory />
         <Footer />

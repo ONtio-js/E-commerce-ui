@@ -13,11 +13,13 @@ import shoe from './img/featuredCat/shoe.png';
 import television from './img/featuredCat/television.png';
 import treasure from './img/featuredCat/treasure.gif';
 import watch from './img/featuredCat/watches.png';
+import googleplay from './img/googlplay.jpg';
+import applestore from './img/applestore.png';
 
 export default {
     flashSale,
     jforce,
     flex,
     banner,freezer,airpod,anniversary,brandday,generator,nivea
-    ,phone,shoe,television,treasure,watch
+    ,phone,shoe,television,treasure,watch,googleplay,applestore
 }
